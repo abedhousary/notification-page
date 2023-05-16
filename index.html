@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-part">
+        <div class="title">Notifications</div>
+        <span class="counter">3</span>
+        <div class="markasread">Mark all as read</div>
+      </div>
+      <div class="notifications">
+        <div class="notification-holder">
+          <img class="profile" src="./assets/images/avatar-mark-webber.webp" />
+          <div class="content">
+            <span class="name"
+              >Mark Webber <span class="from">1m ago</span></span
+            >reacted to your recent post
+            <span class="type">My first tournament today!</span>
+            <div class="unread"></div>
+          </div>
+        </div>
+
+        <div class="notification-holder">
+          <img class="profile" src="./assets/images/avatar-angela-gray.webp" />
+          <div class="content">
+            <span class="name"
+              >Angela Gray <span class="from">5m ago</span></span
+            >followed you<span class="type"></span>
+            <div class="unread"></div>
+          </div>
+        </div>
+
+        <div class="notification-holder">
+          <img
+            class="profile"
+            src="./assets/images/avatar-jacob-thompson.webp"
+          />
+          <div class="content">
+            <span class="name"
+              >Jacob Thompson<span class="from">1 day ago</span></span
+            >has joined your group <span class="type">Chess Club</span>
+            <div class="unread"></div>
+          </div>
+        </div>
+
+        <div class="notification-holder transparet">
+          <img
+            class="profile"
+            src="./assets/images/avatar-rizky-hasanuddin.webp"
+          />
+          <div class="content">
+            <span class="name"
+              >Rizky Hasanuddin<span class="from">5 days ago</span></span
+            >sent you a private message
+          </div>
+        </div>
+        <div class="message">
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </div>
+
+        <div style ="margin-top: 20px;" class="notification-holder transparet">
+          <img
+            class="profile"
+            src="./assets/images/avatar-kimberly-smith.webp"
+          />
+          <div class="content">
+            <span class="name"
+              >Kimberly Smith<span class="from">1 week ago</span></span
+            >commented on your picture
+          </div>
+          <img
+            class="notifiamge"
+            src="./assets/images/image-chess.webp"
+          />
+        </div>
+        <div class="notification-holder transparet">
+          <img
+            class="profile"
+            src="./assets/images/avatar-nathan-peterson.webp"
+          />
+          <div class="content">
+            <span class="name">Nathan Peterson<span class="type" style="margin-left: 0px;">increase your win</span><span class="from">2 weeks ago</span></span>reacted to your recent post<span class="type">5 end-game strategies to</span>
+          </div>
+        </div>
+        <div class="notification-holder transparet">
+          <img
+            class="profile"
+            src="./assets/images/avatar-anna-kim.webp"
+          />
+          <div class="content">
+            <span  class="name"
+              >Anna Kim<span class="from">2 weeks ago</span></span 
+            >left the group<span class="type"> Chess Club</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
